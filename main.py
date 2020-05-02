@@ -8,4 +8,4 @@ schmeckle_converted = schmeckle_float*148
 
 currency_rate = CurrencyRates().get_rate('USD', currency)
 usd_to_currency = round(float(schmeckle_converted*currency_rate), 2)
-print("%s schmeckles in %s is %s" % (schmeckle_float, currency, usd_to_currency))
+print(f"{schmeckle_float} schmeckles in {currency} is {usd_to_currency}")
